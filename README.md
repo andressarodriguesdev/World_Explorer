@@ -140,7 +140,7 @@ Depois, acesse a URL exibida pelo Vite no terminal.
 ## 🌐 Aplicação publicada
 
 **Link da aplicação:**  
-https://world-explorer-5s2gi4f6o-andressas-projects-c2a297e4.vercel.app/
+https://world-explorer-lilac.vercel.app/
 
 ## 💻 Repositório
 
