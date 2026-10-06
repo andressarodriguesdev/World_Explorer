@@ -1,0 +1,114 @@
+
+.country-card {
+  width: 100%;
+  padding: 0;
+
+  display: block;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  border-radius: 16px;
+
+  background: rgba(255, 255, 255, 0.9);
+
+  text-align: left;
+  font-family: inherit;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 6px 18px rgba(15, 23, 42, 0.07);
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.country-card:hover {
+  transform: translateY(-5px);
+
+  border-color: #b8cccc;
+
+  background: rgba(255, 255, 255, 0.96);
+
+  box-shadow:
+    0 16px 32px rgba(15, 23, 42, 0.11);
+}
+
+.country-card:focus-visible {
+  outline: none;
+
+  border-color: #1a4141;
+
+  box-shadow:
+    0 0 0 4px rgba(26, 65, 65, 0.12),
+    0 12px 28px rgba(15, 23, 42, 0.1);
+}
+
+/* =========================
+   BANDEIRA
+========================= */
+
+.country-flag {
+  width: 100%;
+  height: 120px;
+
+  display: block;
+
+  object-fit: cover;
+}
+
+/* =========================
+   FALLBACK
+========================= */
+
+.country-emoji {
+  width: 100%;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f8fafc;
+
+  font-size: 48px;
+}
+
+/* =========================
+   INFORMAÇÕES
+========================= */
+
+.country-info {
+  padding: 16px 17px 18px;
+}
+
+.country-info h2 {
+  margin: 0 0 10px;
+
+  font-size: 17px;
+  line-height: 1.3;
+  font-weight: 700;
+
+  color: #1a4141;
+}
+
+.country-info p {
+  margin: 6px 0;
+
+  font-size: 13px;
+  line-height: 1.4;
+
+  color: #64748b;
+}
+
+.country-info strong {
+  color: #334155;
+  font-weight: 600;
+}
